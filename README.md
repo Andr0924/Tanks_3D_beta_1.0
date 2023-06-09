@@ -1,0 +1,1 @@
+# Technic_of_WW2-_KV-2
