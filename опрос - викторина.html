@@ -6,7 +6,6 @@
           content="IE=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-
 <link rel="icon" type="image/x-icon" href = "https://e7.pngegg.com/pngimages/822/692/png-clipart-soviet-union-hammer-and-sickle-red-star-red-triangle-logo.png">	
     <title>
         Пройдите опрос
@@ -14,7 +13,8 @@
  
     <style>
  
-        /* Styling the Body element i.e. Color,
+  
+/* Styling the Body element i.e. Color,
         Font, Alignment */
         body {
             background-color: Lime;
@@ -88,7 +88,11 @@
 </head>
   
 <body>
-    <h1>Заполните форму, сфотографируйте и скиньте мне на эл. почту по адресу: andr01sid@yandex.ru</h1>
+  <p> <div class="body">
+<a href="главная стр.html" ><img src="https://static.tildacdn.com/tild6433-3735-4561-b631-303065363761/79b8f110f4d29762344a.png" height=50	
+		width=51 ></a>  
+
+<h1>Заполните форму, сфотографируйте и скиньте мне на эл. почту по адресу: andr01sid@yandex.ru</h1>
     <!-- Create Form -->
     <form id="form">
  
@@ -104,7 +108,34 @@
                    placeholder="Введите ваше имя" />
         </div>
   
-        <div class="form-control">
+        
+  <div class="form-control">
+            <label for="role" id="label-role">
+                Ваш пол
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Мужской</option>
+                <option value="intern">Женский</option>
+            </select>
+        </div>
+
+
+<div class="form-control">
+            <label for="age" id="label-age">
+                Возраст
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Введите ваш возраст" />
+        </div>
+
+
+
+<div class="form-control">
             <label for="email" id="label-email">
                 Адрес электронной почты
             </label>
@@ -115,17 +146,8 @@
                    placeholder="Введите ваш адрес электронной почты" />
         </div>
   
-        <div class="form-control">
-            <label for="age" id="label-age">
-                Возраст
-            </label>
- 
-            <!-- Input Type Text -->
-            <input type="text"
-                   id="age"
-                   placeholder="Введите ваш возраст" />
-        </div>
-  
+<!-- Input Type Text -->
+
         <div class="form-control">
             <label>
                 Хотели бы вы поделиться этим сайтом с Вашими друзьями?(не оценивается)
@@ -300,7 +322,7 @@
                 placeholder="Напишите ваши комментарии и предложения сюда">
             </textarea>
         </div>
-  
+
         <!-- Multi-line Text Input Control -->
         <button type="submit" value="Сбросить">
             Сбросить
